@@ -9,7 +9,6 @@ public abstract class Animal {
         this.age = age;
     }
 
-
     public String getName() {
         return name;
     }
@@ -17,5 +16,4 @@ public abstract class Animal {
     public int getAge() {
         return age;
     }
-
 }

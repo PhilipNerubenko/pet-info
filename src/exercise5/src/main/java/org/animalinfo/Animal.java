@@ -1,14 +1,13 @@
 package org.animalinfo;
 
 public abstract class Animal {
-    private String name;
-    private int age;
+    private final String name;
+    private final int age;
 
     public Animal(String name, int age) {
         this.name = name;
         this.age = age;
     }
-
 
     public String getName() {
         return name;
@@ -17,5 +16,6 @@ public abstract class Animal {
     public int getAge() {
         return age;
     }
+
 
 }

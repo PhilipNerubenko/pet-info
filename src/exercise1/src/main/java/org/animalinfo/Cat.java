@@ -5,11 +5,11 @@ public class Cat extends Animal {
         super(name, age, weight);
     }
 
-    public double feed() {
+    public double getFeedInfoKg() {
         return getWeight() * 0.1;
     }
 
     public String toString() {
-        return String.format("Cat name = %s, age = %d, mass = %.2f, feed = %.2f", getName(), getAge(), getWeight(), feed());
+        return String.format("Cat name = %s, age = %d, mass = %.2f, feed = %.2f", getName(), getAge(), getWeight(), getFeedInfoKg());
     }
 }
